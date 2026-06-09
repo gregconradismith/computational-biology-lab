@@ -2,6 +2,8 @@
 
 This folder arranges the contents imported from the Evernote export `REU - Onboarding and How To's.enex` into a small set of Markdown files with local attachment links.
 
+Because these materials were imported from Evernote, some notes may still need light cleanup. Prefer small edits that improve links, formatting, and first steps without changing the meaning of the original note.
+
 ## Evernote Prefix Convention
 
 - `#`: research notes, onboarding, or administrative notes
@@ -18,6 +20,10 @@ This folder arranges the contents imported from the Evernote export `REU - Onboa
 - [Tools and Platforms](tools-and-platforms/README.md) (23 notes)
 - [References](references/README.md) (14 notes)
 - [Research Notes](research-notes/README.md) (1 note)
+
+## Suggested Path for New Students
+
+Start with the Start Here notes, then skim Tools and Platforms for setup help. After that, review Assignments and Project Ideas with a mentor or another student before claiming work.
 
 ## Notes
 
