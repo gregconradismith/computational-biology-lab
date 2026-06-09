@@ -77,3 +77,11 @@ The file should include an `env` section that points to the conda environment's 
 ```
 
 After saving `kernel.json`, restart the SciClone Jupyter server and open a notebook using the `fenicsx` kernel.
+
+
+
+## Further Reading
+
+Automated Solution of Differential Equations by the Finite Element Method: The FEniCS Book (Lecture Notes in Computational Science and Engineering, 84)
+
+ 
