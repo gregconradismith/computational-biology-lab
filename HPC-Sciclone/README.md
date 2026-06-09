@@ -2,6 +2,8 @@
 
 This folder contains examples for high-performance computing workflows on William & Mary's SciClone cluster. SciClone is W&M's research computing environment and is available for research and classroom projects.
 
+These notes are intended as practical starting points. Cluster hostnames, module names, and account-request procedures can change, so confirm important details with current W&M Research Computing documentation when something does not work as expected.
+
 Start with the W&M Research Computing pages:
 
 - [Research Computing at W&M](https://www.wm.edu/offices/it/services/researchcomputing/atwm/)
