@@ -8,6 +8,13 @@ Start with the W&M Research Computing pages:
 - [Request a SciClone account](https://www.wm.edu/offices/it/services/researchcomputing/acctreq/)
 - [Bastion host instructions](https://code.wm.edu/IT/bastion-host-instructions#-openssh-configuration)
 
+## Specialized Workflows
+
+The following subdirectories contain project-specific SciClone setup notes:
+
+- [FEniCSx and DOLFINx on SciClone Jupyter](Fenicsx-Dolfinx/README.md): create a DOLFINx conda environment and register it as a SciClone Jupyter kernel
+- [MOOSE on SciClone Jupyter](Moose/README.md): install the MOOSE Framework with conda, build and test MOOSE, and create a starter MOOSE application
+
 In the examples below, replace `wm_username` with your W&M username.
 
 ## Logging In

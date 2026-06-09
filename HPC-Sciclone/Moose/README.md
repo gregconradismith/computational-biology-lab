@@ -12,7 +12,7 @@ MOOSE is a multiphysics simulation framework developed at Idaho National Laborat
 
 ## Included Materials
 
-- [moose_cahn_hilliard_discussion.pdf](moose_cahn_hilliard_discussion.pdf): discussion notes related to a MOOSE Cahn-Hilliard example
+- [moose\_cahn\_hilliard\_discussion.pdf](moose_cahn_hilliard_discussion.pdf): discussion notes related to a MOOSE Cahn-Hilliard example
 
 ## Prepare the SciClone Environment
 
