@@ -1,21 +1,25 @@
 # LaTeX
 
-## Overleaf 
+## Overleaf
 
-[Overleaf](https://www.overleaf.com/) is good way to learn LaTeX.
+Overleaf is a good way to learn LaTeX.
 
-👉 https://www.overleaf.com/
+https://www.overleaf.com/
 
-## MacTex
+## MacTeX
 
-When you are ready to install LaTeX on your own Mac use 
+When you are ready to install LaTeX on your own Mac, use MacTeX.
 
-👉 https://www.tug.org/mactex/
+https://www.tug.org/mactex/
 
-or search [Homebrew](https://brew.sh) for other options.
+You can also search Homebrew for other options.
 
-## Examples 
+## Examples
 
-This folder contains LaTeX examples for mathematical writing, manuscripts, and posters. 
+This folder contains LaTeX examples for mathematical writing, manuscripts, and posters.
 
-Feel free to download the LaTeX source (file with .tex extension) and edit in TexShop (installed by MacTex).  Alternatively, create a new project in [Overleaf](https://www.overleaf.com/) and upload the .tex file.
+Feel free to download the LaTeX source file, which has a `.tex` extension, and edit it in TeXShop after installing MacTeX. Alternatively, create a new project in Overleaf and upload the `.tex` file.
+
+## Suggested First Task
+
+Choose a small `.tex` example, compile it, change the title and author, add one displayed equation, and compile it again. This gives you practice with the basic edit-compile-review cycle before you use LaTeX for research writing.
