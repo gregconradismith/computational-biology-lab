@@ -1,17 +1,17 @@
 # SageMath
 
-This folder contains SageMath-related examples, especially SageTeX workflows that connect computation with LaTeX documents.
 
-## Current Focus
+SageMath is a free open-source mathematics software system used CBL research students. 
 
-The main materials here live in `ExampleSageTex`.
+👉 https://www.sagemath.org
 
-These examples are helpful if you want to:
+## Sage Textbook and Other Resources 
 
-- generate mathematical objects or calculations in SageMath
-- integrate the results into a LaTeX document
-- keep code and typeset output connected
+Many resources for learning Sagemath can be found at [http://gregorybard.com/Sage.html](http://gregorybard.com/Sage.html). Gregory Bard has written a textbook titled 
+[Sage for Undergraduates](http://gregorybard.com/sage_for_undergraduates_color.pdf.zip) that you can download.
 
-## Recommendation
+## 🌐 SageMath Cell Server
 
-Start by opening the `.tex` file in one of the example folders and then inspect the generated SageTeX support files only after you understand the source document.
+For quick Sage computations without installation:
+
+👉 https://sagecell.sagemath.org/
