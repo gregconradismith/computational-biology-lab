@@ -1,93 +1,168 @@
-# HPC Sciclone
+# HPC SciClone
 
-This folder contains examples related to high-performance computing workflows on William & Mary's batch/slurm cluster (Sciclone), which is free to use for research and classroom projects.   
+This folder contains examples for high-performance computing workflows on William & Mary's SciClone cluster. SciClone is W&M's research computing environment and is available for research and classroom projects.
 
-The top-level web page for information about Sciclone is [Research Computing at W&M](https://www.wm.edu/offices/it/services/researchcomputing/atwm/). The first step for students is to [request an account](https://www.wm.edu/offices/it/services/researchcomputing/acctreq/).
+Start with the W&M Research Computing pages:
 
+- [Research Computing at W&M](https://www.wm.edu/offices/it/services/researchcomputing/atwm/)
+- [Request a SciClone account](https://www.wm.edu/offices/it/services/researchcomputing/acctreq/)
+- [Bastion host instructions](https://code.wm.edu/IT/bastion-host-instructions#-openssh-configuration)
 
-## Login on campus
+In the examples below, replace `wm_username` with your W&M username.
 
-### On campus
+## Logging In
 
-ssh gdsmit@bora.sciclone.wm.edu 
-ssh -Y gdsmit@bora.sciclone.wm.edu
+### On Campus
 
--Y if you want to use X11 
+Use SSH to connect to the `bora` login node:
 
-### Off campus 
+```bash
+ssh wm_username@bora.sciclone.wm.edu
+```
 
-ssh -Y -J gdsmit@bastion.wm.edu gdsmit@bora.sciclone.wm.edu
+If you need X11 forwarding for graphical programs, add `-Y`:
 
-## Copying files 
+```bash
+ssh -Y wm_username@bora.sciclone.wm.edu
+```
 
-### From bora to your computer
+### Off Campus
 
-scp gdsmit@bora.sciclone.wm.edu:~/FILE .
+When working off campus, connect through the W&M bastion host:
 
-scp -r gdsmit@bora.sciclone.wm.edu:~/DIRECTORY .
+```bash
+ssh -Y -J wm_username@bastion.wm.edu wm_username@bora.sciclone.wm.edu
+```
 
-### Off campus 
+The `-J` option tells SSH to jump through the bastion host. The `-Y` option enables trusted X11 forwarding and is only needed if you plan to open graphical windows.
 
-scp -J gdsmit@bastion.wm.edu -r gdsmit@bora.sciclone.wm.edu:~/DIR .
+## Copying Files
 
-### From your computer to bora
+Use `scp` to copy files between your computer and SciClone.
 
-scp -J gdsmit@bastion.wm.edu -r gdsmit@bora.sciclone.wm.edu:~/cahn-hilliard/ .
+### From SciClone to Your Computer
 
-## MATLAB 
+Copy one file from your home directory on `bora` to the current directory on your computer:
 
-salloc -t 180 
+```bash
+scp wm_username@bora.sciclone.wm.edu:~/FILE .
+```
 
-The -t flag gives time in minutes
+Copy a directory recursively:
 
-module load matlab/R2024a 
+```bash
+scp -r wm_username@bora.sciclone.wm.edu:~/DIRECTORY .
+```
 
+From off campus, add the bastion host:
+
+```bash
+scp -J wm_username@bastion.wm.edu -r wm_username@bora.sciclone.wm.edu:~/DIRECTORY .
+```
+
+### From Your Computer to SciClone
+
+Copy a local directory to your home directory on `bora`:
+
+```bash
+scp -r DIRECTORY wm_username@bora.sciclone.wm.edu:~/
+```
+
+From off campus, add the bastion host:
+
+```bash
+scp -J wm_username@bastion.wm.edu -r DIRECTORY wm_username@bora.sciclone.wm.edu:~/
+```
+
+## MATLAB on SciClone
+
+Request an interactive allocation before running MATLAB:
+
+```bash
+salloc -t 180
+```
+
+The `-t` flag requests time in minutes. For example, `-t 180` requests three hours.
+
+Load MATLAB:
+
+```bash
+module load matlab/R2024a
+```
+
+Run MATLAB without the desktop interface:
+
+```bash
+matlab -nodesktop
+```
+
+Run a MATLAB script and then exit:
+
+```bash
 matlab -nodesktop -r "do_flory_huggins_ternary_s_p_ps_q; exit"
+```
 
-## viewing files 
+## Viewing Image Files
 
+If you logged in with X11 forwarding, you can view an image file from the command line:
+
+```bash
 display file.png
-
-
-
-## Login off campus
-
-```
-ssh -Y -J gdsmit@bastion.wm.edu gdsmit@bora.sciclone.wm.edu
-```
--Y if you want to use X11 
-
-### Bastion Host Instructions
-
-[https://code.wm.edu/IT/bastion-host-instructions#-openssh-configuration](https://code.wm.edu/IT/bastion-host-instructions#-openssh-configuration)
-
-#### Generating an SSH Key Pair 
-
-On your computer:
-```
-ssh-keygen -t rsa
 ```
 
-[https://wiki.osuosl.org/howtos/ssh_key_tutorial.html](https://wiki.osuosl.org/howtos/ssh_key_tutorial.html)
+## SSH Keys
 
-Visit the SSH Keys settings page to add your and paste your public key in the key field, give the key a suitable title, and click the add key button.
+SSH keys allow you to log in without typing your password every time.
 
-[https://code.wm.edu/-/user_settings/ssh_keys#index](https://code.wm.edu/-/user_settings/ssh_keys#index)
+Generate a key pair on your computer:
 
-#### modify known_hosts file:
+```bash
+ssh-keygen -t ed25519
 ```
-ssh-keygen -R bora.sciclone.wm.edu 
+
+Then add your public key to your W&M GitLab account:
+
+- [W&M GitLab SSH key settings](https://code.wm.edu/-/user_settings/ssh_keys#index)
+- [SSH key tutorial](https://wiki.osuosl.org/howtos/ssh_key_tutorial.html)
+
+## Known Hosts Cleanup
+
+If SSH warns that the host key for `bora.sciclone.wm.edu` has changed, remove the old entry from your `known_hosts` file:
+
+```bash
+ssh-keygen -R bora.sciclone.wm.edu
 ```
-and, if needed
-```
+
+If needed, also remove the old IP address entry:
+
+```bash
 ssh-keygen -R 128.239.56.4
 ```
 
-#### Working from home
+Then try connecting again.
 
-```
-ssh-keygen
-ssh-copy-id gdsmit@bora.sciclone.wm.edu
-ssh gdsmit@bora.sciclone.wm.edu
+## First-Time SSH Key Setup
+
+After creating an SSH key, you may be able to copy it to SciClone directly when you are on campus:
+
+```bash
+ssh-copy-id wm_username@bora.sciclone.wm.edu
 ```
 
+From off campus, copy the key through the bastion host:
+
+```bash
+ssh-copy-id -o ProxyJump=wm_username@bastion.wm.edu wm_username@bora.sciclone.wm.edu
+```
+
+Then test your login. On campus:
+
+```bash
+ssh wm_username@bora.sciclone.wm.edu
+```
+
+Off campus:
+
+```bash
+ssh -J wm_username@bastion.wm.edu wm_username@bora.sciclone.wm.edu
+```
