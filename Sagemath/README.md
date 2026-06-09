@@ -1,17 +1,23 @@
 # SageMath
 
+SageMath is a free, open-source mathematics software system useful for symbolic computation, numerical work, graph theory, visualization, and exploratory mathematical modeling.
 
-SageMath is a free open-source mathematics software system used CBL research students. 
+Computational Biology Lab students can use SageMath when they need a flexible mathematical computing environment that combines many standard open-source packages in one interface.
 
-👉 https://www.sagemath.org
+## Start Here
 
-## Sage Textbook and Other Resources 
+- [SageMath](https://www.sagemath.org)
+- [SageMath Cell Server](https://sagecell.sagemath.org/)
 
-Many resources for learning Sagemath can be found at [http://gregorybard.com/Sage.html](http://gregorybard.com/Sage.html). Gregory Bard has written a textbook titled 
-[Sage for Undergraduates](http://gregorybard.com/sage_for_undergraduates_color.pdf.zip) that you can download.
+The SageMath Cell Server is a convenient way to run quick computations in a browser without installing SageMath locally.
 
-## 🌐 SageMath Cell Server
+## Learning Resources
 
-For quick Sage computations without installation:
+Gregory Bard maintains a helpful collection of SageMath resources:
 
-👉 https://sagecell.sagemath.org/
+- [Sage resources by Gregory Bard](http://gregorybard.com/Sage.html)
+- [Sage for Undergraduates](http://gregorybard.com/sage_for_undergraduates_color.pdf.zip)
+
+## Related Tools
+
+SageMath notebooks can be useful for interactive exploration. For W&M-hosted notebook options, see the repository's [JupyterHub notes](../JupyterHub/README.md).

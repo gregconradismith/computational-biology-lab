@@ -1,31 +1,24 @@
-# 📓 Jupyter Notebooks for W&M Students
+# Jupyter Notebooks for W&M Students
 
-Jupyter Notebook is available to W&M students by visiting:
+W&M students can use Jupyter Notebook through the campus JupyterHub service:
 
-👉 https://jupyterhub.wm.edu/
+- [W&M JupyterHub](https://jupyterhub.wm.edu/)
 
--   The default kernel is **Python 3**.\
--   To explore other server or kernel options:
-    1.  Go to **File → Hub Control Panel**
-    2.  Click **Stop My Server**
-    3.  Then click **Start My Server**
--   You'll see additional options, including **MATLAB** and more.
+The default kernel is **Python 3**. Other server and kernel options may also be available, including MATLAB.
 
-------------------------------------------------------------------------
+To choose a different server or kernel option:
 
-Once you are familiar with Jupyter Notebooks, it is recommended that you [get an account on Sciclone](../HPC-Sciclone/README.md) (see Research Computing at W&M https://www.wm.edu/offices/it/services/researchcomputing/atwm/) and use Jupyter Notebooks on Sciclone.
+1. Open **File > Hub Control Panel**.
+2. Click **Stop My Server**.
+3. Click **Start My Server**.
+4. Select the server or kernel option you want to use.
 
-## 🖥️ Jupyter Notebooks on SciClone
+## Jupyter on SciClone
 
-👉 https://www.wm.edu/offices/it/services/researchcomputing/jupyter/#a1
+After you are comfortable with Jupyter notebooks, consider requesting a [SciClone account](../HPC-Sciclone/README.md). SciClone is W&M's research computing environment and provides notebook access for larger computational work.
 
-Access SciClone notebooks here:
+Useful links:
 
-👉 https://notebooks.sciclone.wm.edu/
-
-
-
-
-
-
-
+- [Research Computing at W&M](https://www.wm.edu/offices/it/services/researchcomputing/atwm/)
+- [Jupyter Notebooks on SciClone](https://www.wm.edu/offices/it/services/researchcomputing/jupyter/#a1)
+- [SciClone Notebook Server](https://notebooks.sciclone.wm.edu/)
