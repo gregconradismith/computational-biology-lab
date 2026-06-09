@@ -14,6 +14,7 @@ The following subdirectories contain project-specific SciClone setup notes:
 
 - [FEniCSx and DOLFINx on SciClone Jupyter](Fenicsx-Dolfinx/README.md): create a DOLFINx conda environment and register it as a SciClone Jupyter kernel
 - [MOOSE on SciClone Jupyter](Moose/README.md): install the MOOSE Framework with conda, build and test MOOSE, and create a starter MOOSE application
+- [py-pde on SciClone](PY-PDE/README.md): create a conda environment for finite-difference PDE simulations and register it as a SciClone Jupyter kernel
 
 In the examples below, replace `wm_username` with your W&M username.
 
