@@ -10,6 +10,8 @@ Start with the W&M Research Computing pages:
 - [Request a SciClone account](https://www.wm.edu/offices/it/services/researchcomputing/acctreq/)
 - [Bastion host instructions](https://code.wm.edu/IT/bastion-host-instructions#-openssh-configuration)
 
+Also see the [SciClone FAQ](FAQ.md) for short answers to common setup and file-transfer questions.
+
 ## Specialized Workflows
 
 The following subdirectories contain project-specific SciClone setup notes:
