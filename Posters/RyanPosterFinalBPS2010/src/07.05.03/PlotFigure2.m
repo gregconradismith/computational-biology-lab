@@ -22,7 +22,8 @@ NSsimu{1}.WallClockMat = NSdat(:, 3)';
 NSsimu{1}.Resids_SumMat = NSdat(:, 5)';
 NSsimu{1}.Resids_MaxMat = NSdat(:, 4)';
 
-load(['ReferenceResults/', filename]);
+referenceDir = 'ReferenceResults';
+load(fullfile(referenceDir, filename));
 
 wallclock_list = [];
 score_list = [];

@@ -18,7 +18,7 @@ First step: read the review article below and discuss with me during office hour
 
 ![BreathworkFig2.png](attachments/BreathworkFig2.png)
 
-[1-s2.0-S0149763423004220-main.pdf](attachments/1-s2.0-S0149763423004220-main.pdf)
+[Review article](https://doi.org/10.1016/j.neubiorev.2023.105453)
 
 ![REUProjectHolotropicBreathwork.jpg](attachments/REUProjectHolotropicBreathwork.jpg)
 
@@ -34,15 +34,11 @@ Two’s company, three (or more) is a simplex
 
 J Comput Neurosci, doi:10.1007/s10827-016-0608-6
 
-Giusti, C., Ghrist, R., & Bassett, D. S. (2016). Two’s company, three (or more) is a simplex, 1–14. [http://doi.org/10.1007/s10827-016-0608-6](http://doi.org/10.1007/s10827-016-0608-6)
-
-[2016Giusti.pdf](attachments/2016Giusti.pdf)
+Giusti, C., Ghrist, R., & Bassett, D. S. (2016). Two’s company, three (or more) is a simplex, 1–14. [https://doi.org/10.1007/s10827-016-0608-6](https://doi.org/10.1007/s10827-016-0608-6)
 
 SECOND READING
 
-Mel, Bartlett W. "Information processing in dendritic trees." *Neural computation* 6.6 (1994): 1031-1085.
-
-[Mel94.pdf](attachments/Mel94.pdf)
+Mel, Bartlett W. "Information processing in dendritic trees." *Neural Computation* 6.6 (1994): 1031-1085. [https://doi.org/10.1162/neco.1994.6.6.1031](https://doi.org/10.1162/neco.1994.6.6.1031)
 
 ## REU Project - Identifying cell types using RNA-seq
 
@@ -87,6 +83,17 @@ To help, first read our paper:
 
 @ Smith, Puzey and Conradi Smith 2022 - Population genetics of transposable element load: A mechanistic account of observed overdispersion
 
-Then consider the papers (attached below) that review aspects of somatic TEs. Develop a list of theoretical questions related to somatic TEs that may be answered using mathematical modeling.
+Then consider review papers on somatic TEs and neurodevelopment. Develop a list of theoretical questions related to somatic TEs that may be answered using mathematical modeling.
 
-Suggested starting points include reviews from the Muotri/Gage and Walsh research areas.
+Suggested starting points include reviews from the Muotri/Gage and Walsh research areas:
+
+- Muotri et al. 2006: [https://doi.org/10.1038/nature04959](https://doi.org/10.1038/nature04959)
+- Muotri et al. 2010: [https://doi.org/10.1038/nature09544](https://doi.org/10.1038/nature09544)
+- McConnell et al. 2017: [https://doi.org/10.1126/science.aal1641](https://doi.org/10.1126/science.aal1641)
+- Reilly et al. 2013: [https://doi.org/10.1523/JNEUROSCI.3369-13.2013](https://doi.org/10.1523/JNEUROSCI.3369-13.2013)
+- Suarez et al. 2018: [https://doi.org/10.1002/dneu.22567](https://doi.org/10.1002/dneu.22567)
+- Nishioka et al. 2019: [https://doi.org/10.1038/s41380-018-0129-y](https://doi.org/10.1038/s41380-018-0129-y)
+- Poduri et al. 2012: [https://doi.org/10.1126/science.1237758](https://doi.org/10.1126/science.1237758)
+- D'Gama et al. 2018: [https://doi.org/10.1038/s41593-018-0257-3](https://doi.org/10.1038/s41593-018-0257-3)
+- Evrony et al. 2015: [https://doi.org/10.1016/j.neuron.2014.12.028](https://doi.org/10.1016/j.neuron.2014.12.028)
+- Somatic mosaicism review: [https://doi.org/10.1186/s13100-019-0176-1](https://doi.org/10.1186/s13100-019-0176-1)

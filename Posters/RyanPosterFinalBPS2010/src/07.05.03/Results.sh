@@ -8,8 +8,8 @@ echo "starting with Results.sh"
 #
 #  ADJUST THE FOLLOWING TWO LINES FOR NEW LOCATIONS
 #
-RESULTDIR=Output/Results
-EXTRACTFILE=Output/Results/extracted.txt
+RESULTDIR=${RESULTDIR:-Output/Results}
+EXTRACTFILE=${EXTRACTFILE:-$RESULTDIR/extracted.txt}
 #
 #
 echo "starting with extract.sh for results in $RESULTDIR, output appends to $EXTRACTFILE"

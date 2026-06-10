@@ -14,10 +14,6 @@ You can render LaTeX equations in a google doc after installing this extension.
 
 _Created: 2024-01-27; Updated: 2024-01-30_
 
-Dear All,
-
-We hope that you will be able to join us for this year's conference.
-
 BAMM! Biology and Medicine through Mathematics! May 15 - 17, 2024
 
 Abstract submission and the [travel award application](https://forms.gle/sQvPbxHfupvKJtxd7) are now open! Deadline for both is March 1st. Travel awards may be available–grant under review.
@@ -33,29 +29,6 @@ Janet Best, The Ohio State University
 Morgan Craig, University of Montreal and Sainte-Justine University Hospital Research Centre
 
 Abba Gumel, University of Maryland, College Park
-
-See you soon,
-
-Organizing Committee
-
-Associate Dean for Research, College of Humanities and Sciences
-
-Systems Modeling and Analysis PhD Program Director
-
-Department of Mathematics and Applied Mathematics
-
-Virginia Commonwealth University
-
-Professor
-
-
-Offices: Grace E. Harris Hall 4159 and Blanton House 218
-
----
-
-To unsubscribe from the BAMM-L list, click the following link:
-
-[http://lists.vcu.edu/scripts/wa-VCUEDU.exe?SUBED1=BAMM-L&A=1](http://lists.vcu.edu/scripts/wa-VCUEDU.exe?SUBED1=BAMM-L&A=1)
 
 ## Box account for undergraduate students
 
@@ -73,9 +46,7 @@ _Created: 2024-01-29; Updated: 2024-02-01_
 
 [https://community.coherentpdf.com/](https://community.coherentpdf.com/)
 
-[cpdf-binaries-master.zip](attachments/cpdf-binaries-master.zip)
-
-[cpdfmanual.pdf](attachments/cpdfmanual.pdf)
+Use the official Coherent PDF site for downloads and documentation rather than storing local copies in this repository.
 
 ---
 
@@ -95,7 +66,7 @@ _Created: 2024-02-15; Updated: 2024-02-15_
 
 _Created: 2023-11-09; Updated: 2024-02-01_
 
-[git-cheat-sheet-education.pdf](attachments/git-cheat-sheet-education.pdf)
+[GitHub Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## Git Tutorial for Absolute Beginners
 
@@ -107,11 +78,7 @@ _Created: 2023-11-09; Updated: 2024-02-01_
 
 _Created: 2018-03-19; Updated: 2024-02-05_
 
-[sage_for_undergraduates_color.pdf](attachments/sage_for_undergraduates_color.pdf)
-
-appendicesMap
-
-[appendices.pdf](attachments/appendices.pdf)
+[Sage for Undergraduates](https://www.gregorybard.com/Sage.html)
 
 ## How to Share Jupyter Notebooks: A Step by Step Guide
 
