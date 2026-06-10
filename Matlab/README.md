@@ -1,6 +1,6 @@
 # MATLAB
 
-This folder now contains the full MATLAB collection for the repository.
+This folder contains the full MATLAB collection for the repository.
 
 The first few folders are especially approachable for new students, while many of the other folders are larger, more specialized, or more research-oriented.
 
@@ -9,6 +9,18 @@ The first few folders are especially approachable for new students, while many o
 1. `NumerialIntegrationOfScalarODE`
 2. `VariableNumberOfInputArguments`
 3. `PlottingSubplotsAndMultipleYAxes`
+
+The first folder name is spelled `NumerialIntegrationOfScalarODE` in the repository. The name is preserved here so that the link/path matches the existing folder.
+
+## How To Work Through an Example
+
+For each example folder:
+
+1. read the folder name and any local notes before running code
+2. identify the main script or function
+3. run the example once without changes
+4. change one parameter or plotting option
+5. record what changed in your lab notebook
 
 ## Good Next Steps After The Basics
 
