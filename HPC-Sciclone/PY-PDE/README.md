@@ -35,10 +35,10 @@ module load miniforge3/24.9.2-0
 
 ## Create the Conda Environment
 
-Create a fresh conda environment named `pde` and install `py-pde` from the `conda-forge` channel:
+Create a fresh conda environment named `pde` and install `py-pde`, `ffmpeg`, and `ffmpeg-python` from the `conda-forge` channel:
 
 ```bash
-conda create -n pde -c conda-forge py-pde
+conda create -n pde -c conda-forge py-pde ffmpeg ffmpeg-python
 ```
 
 Activate the environment:
@@ -133,3 +133,46 @@ conda env export --from-history > pde-env.yml
 ```
 
 This can be helpful when sharing a working setup with another student.
+
+## Installing on macOS with Homebrew
+
+The main instructions above are for W&M's SciClone system. On a personal Mac, the overall conda workflow is similar, but there are a few important differences:
+
+- You do not need to SSH into SciClone.
+- You do not need to load the SciClone `miniforge3` module.
+- You install the base tools yourself with Homebrew.
+- You usually do not need to edit `kernel.json` by hand if you start JupyterLab from the same shell where the `pde` environment is active.
+
+Install Miniconda and JupyterLab with Homebrew:
+
+```bash
+brew install --cask miniconda
+brew install jupyterlab
+```
+
+Initialize conda for your shell, then restart the terminal:
+
+```bash
+conda init "$(basename "${SHELL}")"
+```
+
+Create and activate the same `pde` environment used on SciClone:
+
+```bash
+conda create -n pde -c conda-forge py-pde ffmpeg ffmpeg-python ipykernel
+conda activate pde
+```
+
+Register the environment as a Jupyter kernel:
+
+```bash
+python -m ipykernel install --user --name pde --display-name pde
+```
+
+Start JupyterLab from a terminal where the `pde` environment is active:
+
+```bash
+jupyter lab
+```
+
+The `pde` kernel should now appear in JupyterLab. If notebook animations or video export cannot find `ffmpeg`, the difference from SciClone is usually how JupyterLab was started: activate the `pde` environment before running `jupyter lab`, or add the conda environment's `bin` directory to the kernel `PATH` as shown in the SciClone `kernel.json` example above.
