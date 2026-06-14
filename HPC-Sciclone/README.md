@@ -48,6 +48,45 @@ ssh -Y -J wm_username@bastion.wm.edu wm_username@bora.sciclone.wm.edu
 
 The `-J` option tells SSH to jump through the bastion host. The `-Y` option enables trusted X11 forwarding and is only needed if you plan to open graphical windows.
 
+## SSH Keys
+
+SSH keys allow you to log in without typing your password every time.
+
+Generate a key pair on your computer:
+
+```bash
+ssh-keygen -t ed25519
+```
+
+To use the key for SciClone logins, copy your public key to SciClone. On campus:
+
+```bash
+ssh-copy-id wm_username@bora.sciclone.wm.edu
+```
+
+From off campus, copy the key through the bastion host:
+
+```bash
+ssh-copy-id -o ProxyJump=wm_username@bastion.wm.edu wm_username@bora.sciclone.wm.edu
+```
+
+Then test your login. On campus:
+
+```bash
+ssh wm_username@bora.sciclone.wm.edu
+```
+
+Off campus:
+
+```bash
+ssh -J wm_username@bastion.wm.edu wm_username@bora.sciclone.wm.edu
+```
+
+If you also want to use SSH with W&M GitLab, add your public key to your W&M GitLab account:
+
+- [W&M GitLab SSH key settings](https://code.wm.edu/-/user_settings/ssh_keys#index)
+- [SSH key tutorial](https://wiki.osuosl.org/howtos/ssh_key_tutorial.html)
+
 ## Copying Files
 
 Use `scp` to copy files between your computer and SciClone.
@@ -122,21 +161,6 @@ If you logged in with X11 forwarding, you can view an image file from the comman
 display file.png
 ```
 
-## SSH Keys
-
-SSH keys allow you to log in without typing your password every time.
-
-Generate a key pair on your computer:
-
-```bash
-ssh-keygen -t ed25519
-```
-
-Then add your public key to your W&M GitLab account:
-
-- [W&M GitLab SSH key settings](https://code.wm.edu/-/user_settings/ssh_keys#index)
-- [SSH key tutorial](https://wiki.osuosl.org/howtos/ssh_key_tutorial.html)
-
 ## Known Hosts Cleanup
 
 If SSH warns that the host key for `bora.sciclone.wm.edu` has changed, remove the old entry from your `known_hosts` file:
@@ -152,29 +176,3 @@ ssh-keygen -R 128.239.56.4
 ```
 
 Then try connecting again.
-
-## First-Time SSH Key Setup
-
-After creating an SSH key, you may be able to copy it to SciClone directly when you are on campus:
-
-```bash
-ssh-copy-id wm_username@bora.sciclone.wm.edu
-```
-
-From off campus, copy the key through the bastion host:
-
-```bash
-ssh-copy-id -o ProxyJump=wm_username@bastion.wm.edu wm_username@bora.sciclone.wm.edu
-```
-
-Then test your login. On campus:
-
-```bash
-ssh wm_username@bora.sciclone.wm.edu
-```
-
-Off campus:
-
-```bash
-ssh -J wm_username@bastion.wm.edu wm_username@bora.sciclone.wm.edu
-```
