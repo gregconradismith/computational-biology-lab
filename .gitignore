@@ -16,6 +16,10 @@ Thumbs.db
 # MATLAB generated files #
 *.asv
 
+# Python generated files #
+__pycache__/
+*.py[cod]
+
 # LaTeX generated files #
 *.aux
 *.bbl

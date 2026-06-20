@@ -40,6 +40,7 @@ Other folders in this directory include:
 - modeling and numerical integration examples
 - fitting, parameter search, and Markov-chain examples
 - performance and plotting reference material
+- phase separation and thermodynamic modeling examples
 - mixed research-note examples
 - `RandomMatlab`, which is a browsable reference shelf rather than a beginner sequence
 
@@ -48,6 +49,8 @@ Other folders in this directory include:
 - `NumerialIntegrationOfScalarODE`: solving and plotting a simple ordinary differential equation
 - `VariableNumberOfInputArguments`: using `varargin` and understanding function inputs
 - `PlottingSubplotsAndMultipleYAxes`: basic figure layout and plotting patterns
+- `FloryHugginsPhaseDiagramBinaryFluid`: plotting Flory-Huggins free energy and phase-separation behavior
+- `MarkovChains`: stationary distributions, continuous-time Markov processes, and entropy production examples
 
 ## Best First Example
 
