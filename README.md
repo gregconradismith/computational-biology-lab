@@ -91,3 +91,7 @@ Contributions from current and former students are acknowledged and can often be
 ## License
 
 These materials are released under the [MIT License](LICENSE.md).
+
+## Codex Coordination
+
+Codex session state is tracked in `.codex/handoff.md`; durable decisions and task history may also appear in `.codex/` when useful.
