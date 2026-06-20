@@ -29,6 +29,7 @@ __pycache__/
 *.fls
 *.log
 *.out
+*.synctex(busy)
 *.synctex.gz
 
 # General local artifacts #

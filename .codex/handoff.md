@@ -1,6 +1,6 @@
 # Codex Handoff
 
-Date: 2026-06-18
+Date: 2026-06-20
 
 Repo: `computational-biology-lab`
 
@@ -24,6 +24,18 @@ reorganization.
 
 ## Recent Context
 
+- 2026-06-20 review/cleanup pass:
+  - Public Pages site was improved with `docs/assets/lab-research-banner.png`,
+    `docs/student-checklists.md`, clearer quick entry points, and public/private
+    contribution guidance.
+  - Clearly third-party/reference PDFs were removed from the public current tree
+    and copied to the private companion repo under
+    `public-reference-archive/` with original relative paths preserved.
+  - Incidental artifacts `.DS_Store` and `qasexamples14.synctex(busy)` were
+    removed from the public current tree; `.gitignore` now covers the Synctex
+    busy variant.
+  - This pass checked the current tree, not Git history. A history scrub would
+    be a separate, destructive/public-coordination decision.
 - `HPC-Sciclone/PY-PDE/README.md` documents `py-pde` setup for SciClone and a
   macOS/Homebrew contrast path.
 - The intended conda environment and Jupyter kernel name for that workflow is

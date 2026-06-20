@@ -240,7 +240,7 @@ _Created: 2013-07-11; Updated: 2024-02-05_
 
 [http://www.texample.net/tikz](http://www.texample.net/tikz)/
 
-[tikzpgfmanual.pdf](attachments/tikzpgfmanual.pdf)
+[PGF/TikZ manual](https://tikz.dev/)
 
 [minimaltikz.pdf](attachments/minimaltikz.pdf)
 

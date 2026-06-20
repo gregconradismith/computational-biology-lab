@@ -30,6 +30,10 @@ Include:
 4. what output to expect
 5. where to look next
 
+## Public-Safe Contributions
+
+Before adding files, check whether they are appropriate for a public, MIT-licensed teaching repository. Prefer links to official sources for papers, manuals, software documentation, and campus services. Keep private assignments, unpublished results, downloaded article PDFs, credentials, and student-specific material in the private companion repository.
+
 ## Git Basics
 
 Check your changes before committing:

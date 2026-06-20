@@ -27,6 +27,8 @@ Your notebook should make your work reproducible. For computational work, includ
 - mistakes, error messages, and how you fixed them
 - questions for the next meeting
 
+Use the [student checklists]({{ '/student-checklists/' | relative_url }}) when you are starting a new example, preparing for a meeting, or cleaning up work before sharing it.
+
 ## Suggested First Technical Entry Points
 
 | If you need to learn | Start with |

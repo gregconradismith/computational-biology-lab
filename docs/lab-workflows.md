@@ -43,3 +43,7 @@ Good research notes are dated, searchable, and connected to files. They should a
 - what changed?
 - what result or error did I get?
 - what should I try next?
+
+## Reference PDFs And Private Material
+
+Do not add downloaded article PDFs, unpublished project notes, proposal material, private datasets, credentials, or student records to the public repository. If a reference is useful to the lab but should not be public, keep it in the private companion repository and link to an official public source from this site when possible.

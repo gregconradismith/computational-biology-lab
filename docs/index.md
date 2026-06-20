@@ -16,16 +16,11 @@ description: A student-facing guide to the Computational Biology Lab teaching re
       <a class="button secondary" href="{{ '/repository-map/' | relative_url }}">Browse the map</a>
     </div>
   </div>
-  <aside class="panel">
-    <h2>Use this repository as</h2>
-    <ul>
-      <li>a teaching library, not a single software package</li>
-      <li>a place to study small computational examples</li>
-      <li>a reference for MATLAB, LaTeX, TikZ, SageMath, notebooks, and HPC workflows</li>
-      <li>a shared record of practical lab knowledge</li>
-    </ul>
-  </aside>
 </section>
+
+<figure class="banner">
+  <img src="{{ '/assets/lab-research-banner.png' | relative_url }}" alt="Computational biology desk with code, plots, equations, and research notes">
+</figure>
 
 ## First Path
 
@@ -50,12 +45,24 @@ description: A student-facing guide to the Computational Biology Lab teaching re
   </div>
 </div>
 
+## Quick Entry Points
+
+| Goal | Start with | What to record |
+| --- | --- | --- |
+| Run a first MATLAB model | `Matlab/README.md` | script name, parameters changed, plot or numerical output |
+| Prepare mathematical writing | `Latex/README.md` | source file, compile command, packages used |
+| Make a figure for a paper or poster | `TikZ/README.md` | source file, generated PDF, data source |
+| Try notebook-based exploration | `Notebooks/README.md` | kernel, package versions, cells changed |
+| Work on SciClone | `HPC-Sciclone/README.md` | login node, environment name, job or kernel settings |
+| Find a small contribution | `REU-Onboarding/README.md` | assignment owner, next action, open question |
+
 ## Important Source Files
 
 - [Main repository README]({{ site.repo_url }}/blob/main/README.md)
 - [Start here for new students]({{ site.repo_url }}/blob/main/STUDENT_START_HERE.md)
 - [Contributing guide]({{ site.repo_url }}/blob/main/CONTRIBUTING.md)
 - [Git help]({{ site.repo_url }}/blob/main/GIT-HELP.md)
+- [Student checklists]({{ '/student-checklists/' | relative_url }})
 
 ## What To Do When You Are Lost
 

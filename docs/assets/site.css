@@ -7,6 +7,8 @@
   --line: #d9ded7;
   --accent: #0b6b57;
   --accent-dark: #084d40;
+  --accent-soft: #dfeee7;
+  --warm: #b75d3a;
   --link: #145ea8;
   --code-bg: #eef2ef;
 }
@@ -75,15 +77,12 @@ nav a:hover {
 }
 
 .content {
-  padding: 48px 0 64px;
+  padding: 42px 0 64px;
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.8fr);
-  gap: 32px;
-  align-items: start;
-  margin-bottom: 36px;
+  max-width: 850px;
+  margin-bottom: 24px;
 }
 
 .eyebrow {
@@ -128,6 +127,21 @@ p {
   font-size: 1.18rem;
 }
 
+.banner {
+  margin: 0 0 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 2;
+  object-fit: cover;
+}
+
 .panel {
   background: var(--paper);
   border: 1px solid var(--line);
@@ -154,6 +168,7 @@ p {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 18px;
+  border-top: 4px solid var(--accent-soft);
 }
 
 .card h3 {
@@ -188,6 +203,13 @@ p {
   background: transparent;
   color: var(--accent-dark);
   border: 1px solid var(--line);
+}
+
+.button:focus-visible,
+nav a:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--warm);
+  outline-offset: 3px;
 }
 
 code {

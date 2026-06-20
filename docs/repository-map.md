@@ -16,6 +16,7 @@ Use this page to choose a folder before diving into files. Most top-level folder
 | `CONTRIBUTING.md` | expectations for student contributors |
 | `GIT-HELP.md` | compact reminder of common Git commands |
 | `REU-Onboarding/` | arranged notes, assignments, project ideas, tools, and references |
+| `docs/` | GitHub Pages source for this student-facing guide |
 
 ## Technical Areas
 
@@ -44,3 +45,7 @@ Use this page to choose a folder before diving into files. Most top-level folder
 - [Open the MATLAB folder]({{ site.repo_url }}/tree/main/Matlab)
 - [Open REU onboarding]({{ site.repo_url }}/tree/main/REU-Onboarding)
 - [Open HPC-Sciclone]({{ site.repo_url }}/tree/main/HPC-Sciclone)
+
+## Public/Private Boundary
+
+This public repository should contain runnable examples, public notes, source files, and generated teaching outputs. Keep downloaded third-party PDFs, unpublished research notes, private assignments, and student-specific material in the private companion repository.
