@@ -4,6 +4,12 @@ This repository contains example code, notes, figures, and writing resources for
 
 The repository is designed to be a teaching library rather than a single software package. Most folders contain small, self-contained examples that students can study, run, adapt, and extend for their own research projects.
 
+## Static Website
+
+The student-facing HTML guide for this repository is available through GitHub Pages:
+
+https://gregconradismith.github.io/computational-biology-lab/
+
 ## Preparing for Undergraduate Research
 
 Undergraduates interested in mathematical and computational aspects of biology should attend the Biomath Journal Club / Seminar, which meets on Fridays at Noon in ISC 3020 (food is provided). The faculty you will meet at the Biomath Seminar are committed to faculty-student research, apprenticeship, and mentoring.
@@ -67,6 +73,7 @@ Use earphones to listen to music because some people cannot think with music in 
 ## Repository Map
 
 - [Start Here for New Students](STUDENT_START_HERE.md): a short orientation path for students new to the repository
+- [Static HTML Student Guide](https://gregconradismith.github.io/computational-biology-lab/): GitHub Pages site for navigating and using this repository
 - [Matlab](Matlab/README.md): introductory MATLAB examples plus larger worksheets, research-oriented scripts, and reference materials
 - [Latex](Latex/README.md): LaTeX examples for manuscripts and mathematical writing
 - [TikZ](TikZ/README.md): figure and diagram examples

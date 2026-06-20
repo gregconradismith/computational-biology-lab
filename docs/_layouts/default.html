@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="site-title" href="{{ '/' | relative_url }}">Computational Biology Lab</a>
+        <nav aria-label="Primary navigation">
+          <a href="{{ '/' | relative_url }}">Start</a>
+          <a href="{{ '/getting-started/' | relative_url }}">Getting Started</a>
+          <a href="{{ '/repository-map/' | relative_url }}">Repository Map</a>
+          <a href="{{ '/lab-workflows/' | relative_url }}">Workflows</a>
+          <a href="{{ '/contributing/' | relative_url }}">Contributing</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap content">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Source repository:
+          <a href="{{ site.repo_url }}">{{ site.repository }}</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
