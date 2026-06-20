@@ -20,11 +20,13 @@ This folder has been lightly reorganized into topic-based subfolders so it is ea
 - `LocalGlobalFHN`: FitzHugh-Nagumo-related materials
 - `PositionDeterminationMatlab`: position-determination modeling materials
 - `SandpileMovies`: sandpile examples and animations
-- `LeVeque-fdmbook`: reference material related to finite-difference methods
+- `LeVeque-fdmbook`: historical reference material related to finite-difference
+  methods; local third-party PDFs have been moved to the private reference
+  library
 
 ## Notes
 
-- A few historical PDFs and generated figures still live at this folder level.
+- A few generated figures still live at this folder level.
 - Some older subfolders predated this reorganization and have been left in place.
 - The goal of this pass is improved browsing, not a perfect archival cleanup.
 

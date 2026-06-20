@@ -31,6 +31,8 @@ reorganization.
   - Clearly third-party/reference PDFs were removed from the public current tree
     and copied to the private companion repo under
     `public-reference-archive/` with original relative paths preserved.
+  - A follow-up moved remaining standalone/article-like PDFs and LeVeque
+    finite-difference book PDFs to the organized private reference library.
   - Incidental artifacts `.DS_Store` and `qasexamples14.synctex(busy)` were
     removed from the public current tree; `.gitignore` now covers the Synctex
     busy variant.
