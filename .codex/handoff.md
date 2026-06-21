@@ -1,12 +1,12 @@
 # Codex Handoff
 
-Date: 2026-06-20
+Date: 2026-06-21
 
 Repo: `computational-biology-lab`
 
 Branch: `main`
 
-Current Git status at handoff creation:
+Current Git status after the 2026-06-21 migration readiness fetch and before this handoff edit:
 
 ```bash
 ## main...origin/main
@@ -65,6 +65,18 @@ Review the `py-pde` setup notes:
 
 ```bash
 sed -n '1,240p' HPC-Sciclone/PY-PDE/README.md
+```
+
+## Migration Readiness Snapshot
+
+- Checked on 2026-06-21 before moving computers.
+- Non-interactive `git fetch --all --prune` completed successfully.
+- Root `README.md` points to `.codex/handoff.md` when a root README exists.
+
+Pre-edit Git state after fetch:
+
+```bash
+## main...origin/main
 ```
 
 ## Notes For The Next Codex
