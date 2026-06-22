@@ -1,10 +1,27 @@
 # Codex Handoff
 
-Date: 2026-06-21
+Date: 2026-06-22
 
 Repo: `computational-biology-lab`
 
 Branch: `main`
+
+<!-- codex-transfer-snapshot:start -->
+## 2026-06-22 Computer Transfer Snapshot
+
+- Checked on 2026-06-22 from `/Users/greg/Git` before moving computers.
+- Ran `git fetch --all --prune`; `main` is tracking `origin/main` unless this status says otherwise.
+- Origin: `git@github.com:gregconradismith/computational-biology-lab.git`
+- Latest commit at refresh time: `8edac51 2026-06-21 15:45:18 -0400 Refresh Codex handoff for computer migration`
+- On the next machine, read `AGENTS.md` first, then this handoff.
+- The working tree was clean before this handoff refresh; after committing the refresh, `git status --short --branch` should again show only the branch line.
+
+Status before this handoff edit:
+
+```bash
+## main...origin/main
+```
+<!-- codex-transfer-snapshot:end -->
 
 Current Git status after the 2026-06-21 migration readiness fetch and before this handoff edit:
 
