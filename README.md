@@ -82,6 +82,25 @@ Use earphones to listen to music because some people cannot think with music in 
 - [HPC-Sciclone](HPC-Sciclone/README.md): cluster computing examples
 - [REU Onboarding and How To's](REU-Onboarding/README.md): arranged notes, assignments, project ideas, tools, and references imported from the Evernote export
 
+## Related Public Repositories
+
+### Teaching resources
+
+- [Cellular Biophysics and Modeling](https://github.com/gregconradismith/cellular-biophysics-and-modeling): online course materials
+- [Receptor Modeling Jupyter Book](https://github.com/gregconradismith/receptor-modeling-jupyter-book): notebooks and explanations for receptor modeling
+
+### Teaching software
+
+- [Current-Voltage Relation Game](https://github.com/gregconradismith/current-voltage-relation-game): practice interpreting current-voltage and conductance curves
+- [Voltage-Clamp Game](https://github.com/gregconradismith/voltage-clamp-game): practice interpreting voltage-step currents
+- [PolyQual Game](https://github.com/gregconradismith/polyqual-game): qualitative comparison of polynomial curves
+- [Morris–Lecar Simulator](https://github.com/gregconradismith/morris-lecar-simulator): explore membrane dynamics and phase planes
+- [Slow Passage Through Hopf](https://github.com/gregconradismith/slow-passage-simulation): explore delayed transitions through Hopf bifurcations
+
+### Student research template
+
+- [REU](https://github.com/gregconradismith/reu): a template for organizing student profiles, CVs, projects, code, papers, and research notes
+
 ## For Student Contributors
 
 Before contributing, please read [CONTRIBUTING.md](CONTRIBUTING.md).
